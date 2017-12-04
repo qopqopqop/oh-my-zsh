@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/ramiro/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,7 +51,7 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(fasd cake composer common-aliases gitfast git-extras history npm tmux vi-mode gulp history-substring-search extract python virtualenvwrapper fabric)
+plugins=(fasd composer common-aliases git gitfast git-extras history tmux vi-mode history-substring-search)
 
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 source $ZSH/oh-my-zsh.sh

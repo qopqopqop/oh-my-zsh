@@ -100,10 +100,6 @@ function git {
      rm -f $tmp
      printf "changing to directory %s\n" "$repo_name"
      cd "$repo_name"
-     command gtm init
-   elif [ "$1" = init ] ; then
-     command git "$@"
-     command gtm init
    else
      command git "$@"
    fi
