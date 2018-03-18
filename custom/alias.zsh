@@ -10,3 +10,4 @@ alias -g oo='open "."'
 
 alias rm='nocorrect rm'
 alias ag='ag --pager="less -XFR"'
+
